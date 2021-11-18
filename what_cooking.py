@@ -1,6 +1,6 @@
 import pandas as pd
 from urllib.request import urlretrieve
-url = "https://github.com/Elwing-Chou/tibaml1027/raw/main/train.csv"
+url = "https://github.com/a56115624/what_cokking-----------/blob/master/test.json"
 urlretrieve(url, "train.csv")
 train = pd.read_csv("train.csv", encoding="utf-8")
 url = "https://github.com/Elwing-Chou/tibaml1027/raw/main/test.csv"
